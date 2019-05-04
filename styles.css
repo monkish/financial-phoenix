@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Noticia+Text|Roboto:300,500');
 
+
+/* Colors */
+/*
+   Blue       = #5AB1D1
+   Dark Blue  = #1A7699
+   Coral      = #FF7D70
+   Black      = #111111
+   Dark Grey  = #444444
+   Grey 	     = #c8c8c8
+   Light Grey = #f4f4f4
+*/
+
 *, *:before, *:after {
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
@@ -15,7 +27,7 @@ html, body {
 /* Website background color and default font styles */
 body {
   background: #fff;
-  color: ;
+  color: #444444;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -26,26 +38,26 @@ body {
 
 .page-center {
   float: none;
-  max-width: 1120px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 
 a {
-  color: ;
-  text-decoration: underline;
+  color: #FF7D70;
+  text-decoration: none;
   transition: ease all .3s;
 }
 a:hover, a:focus {
-  color: ;
-  text-decoration: underline;
+  color: #444444;
+  text-decoration: none;
 }
 
 hr {
   clear: both;
-  color: #ccc;
-  background-color: #ccc;
+  color: #444444;
+  background-color: #444444;
   height: 1px;
   border: none;
   margin: 45px 0;
@@ -53,13 +65,13 @@ hr {
 
 /* Highlighted Text */
 ::-moz-selection {
-  color: ;
-  background: ;
+  color: #fff;
+  background: #FF7D70;
   text-shadow: none;
 }
 ::selection {
-  color: ;
-  background: ;
+  color: #fff;
+  background: #FF7D70;
   text-shadow: none;
 }
 
@@ -91,6 +103,7 @@ sub { bottom: -0.25em; }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noticia Text', serif;
   font-weight: 400;
+	 color: #111111;
   line-height: 1.25;
   margin: 0 0 20px;
 }
