@@ -40,20 +40,19 @@ class Quiz extends React.Component {
       false,
       true
     ];
-    var questions = [];
-    for (var i = 0; i < title.length; i++) {
-      questions.push(
-        e( Question, {key: title[i], text: title[i], answers: options[i], ignoreNext: single[i]}  )
+    var i = this.state.index;
+    if (i < title.length){
+      var questions = e( Question, {key: title[i], text: title[i], answers: options[i], ignoreNext: single[i]});
+      var nextButton = e('a', {onClick: this.onClick.bind(this), className:'next btn btn-primary'}, 'Next');
+      return e(
+        'div',
+        null,
+        questions,
+        nextButton
       );
-
+    } else {
+      return e('div', {className:"answers"});
     }
-    var nextButton = e('a', {onClick: this.onClick.bind(this), className:'next btn btn-primary'}, 'Next');
-    return e(
-      'div',
-      null,
-      questions[this.state.index],
-      nextButton
-    );
   }
 }
 
