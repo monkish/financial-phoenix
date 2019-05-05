@@ -51,7 +51,7 @@ class Quiz extends React.Component {
         nextButton
       );
     } else {
-      return e('div', {className:"answers"});
+      return e('a', {className:"next btn btn-primary finish"}, "Finished!");
     }
   }
 }
