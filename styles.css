@@ -345,6 +345,7 @@ ul.unstyled, ol.unstyled {
   font-size: 22px;
 	 color: #444444;
   line-height: 1;
+  outline: none;
   padding: 0;
   margin-top: 20px;
 }
