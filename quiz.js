@@ -41,9 +41,13 @@ class Quiz extends React.Component {
       true
     ];
     var i = this.state.index;
+    var href = "#";
+    if ((i+1) == title.length) {
+      href = "result.html";
+    }
     if (i < title.length){
       var questions = e( Question, {key: title[i], text: title[i], answers: options[i], ignoreNext: single[i]});
-      var nextButton = e('a', {onClick: this.onClick.bind(this), className:'next btn btn-primary'}, 'Next');
+      var nextButton = e('a', {"href": href, onClick: this.onClick.bind(this), className:'next btn btn-primary'}, 'Next');
       return e(
         'div',
         null,
