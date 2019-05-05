@@ -115,7 +115,7 @@ class Answer extends React.Component {
       e('input', {key: this.state.text.toString(), type: this.state.type,
         //className: clazz,
         onClick: this.onClick.bind(this)}),
-      this.state.text
+      e('span', {className:'value'}, this.state.text)
     );
   }
 }
