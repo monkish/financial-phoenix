@@ -237,6 +237,19 @@ ul.unstyled, ol.unstyled {
   color: #CC2D4F;
 }
 
+@media (max-width: 767px) {
+	.navbar {
+		text-align: center;
+	}
+	.navbar .logo {
+		width: 100%;
+		max-width: 200px;
+	}
+	.navbar ul {
+		display: none;
+	}
+}
+
 /* Body */
 .body-container {
   position: relative;
@@ -268,8 +281,25 @@ ul.unstyled, ol.unstyled {
 .card p {
   color: #444444;
 }
-/* Quiz */
 
+@media (min-width: 768px) and (max-width: 1024px) {
+	.home .card {
+		padding: 50px 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home .col-sm-6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.home .card {
+		padding: 35px 20px;
+		margin: 35px auto;
+	}
+}
+
+/* Quiz */
 .quiz .card {
   padding: 75px 50px 55px;
 }
@@ -313,9 +343,31 @@ ul.unstyled, ol.unstyled {
   border: 0;
   font-weight: 300;
   font-size: 22px;
+	 color: #444444;
   line-height: 1;
   padding: 0;
   margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+	#fp-quiz label.btn.btn-secondary {
+			width: 80%;
+			padding: 30px 20px;
+			margin: 10px auto !important;
+	}
+}
+
+/* Basics page */
+.basics .body-container {
+	padding: 30px 0;
+}
+.basics .section {
+	padding: 45px 0;
+}
+.basics .card p,
+.basics .card ul,
+.basics .card ul li {
+	text-align: left;
 }
 
 /* Footer */
