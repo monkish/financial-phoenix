@@ -24,20 +24,23 @@ class Quiz extends React.Component {
       "What is your household income?",
       "Does anyone depend on you financially?",
       "What kind of debt do you carry?",
-      "What is your current level of education?"
+      "What is your current level of education?",
+      ""
     ];
     var options = [
       ["15 - 20", "20 - 30", "31 - 40", "41+"],
       ["No income", "Under $31,000", "Over $31,000"],
       ["None", "Kids", "Spouse", "Parents/Grandparents"],
       ["None", "Credit Cards", "Student Loans", "Auto Loans", "Other"],
-      ["None", "Highschool \\ No college", "Highschool \\ Going to college", "College degree(s)"]
+      ["None", "Highschool \\ No college", "Highschool \\ Going to college", "College degree(s)"],
+      []
     ];
     var single = [
       true,
       true,
       false,
       false,
+      true,
       true
     ];
     var i = this.state.index;
