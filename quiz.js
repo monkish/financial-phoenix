@@ -41,7 +41,7 @@ class Quiz extends React.Component {
       true
     ];
     var i = this.state.index;
-    var href = "#";
+    var href = "javascript:void(0)";
     if ((i+1) == title.length) {
       href = "result.html";
     }
