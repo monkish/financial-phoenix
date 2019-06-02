@@ -1,24 +1,11 @@
 'use strict';
-
+import React, {useState} from 'react';
 const e = React.createElement;
 
-class Quiz extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { answers: [], index: 0};
-  }
+function Quiz() {
+  const [index, setIndex] = useState(0);
 
-  onClick() {
-    console.log(this.props.children);
-    this.setState((state) => {
-      //todo: keep track of answers selected
-      //state.answers.push(chosen);
-      state.index = state.index + 1;
-      return state;
-    });
-  }
 
-  render() {
     var title = [
       "What is your age?",
       "What is your household income?",
@@ -43,14 +30,14 @@ class Quiz extends React.Component {
       true,
       true
     ];
-    var i = this.state.index;
+    var i = index;
     var href = "javascript:void(0)";
     if ((i+1) == title.length) {
       href = "result.html";
     }
     if (i < title.length){
       var questions = e( Question, {key: title[i], text: title[i], answers: options[i], ignoreNext: single[i]});
-      var nextButton = e('a', {"href": href, onClick: this.onClick.bind(this), className:'next btn btn-primary'}, 'Next');
+      var nextButton = e('a', {"href": href, onClick: () => setIndex(index + 1), className:'next btn btn-primary'}, 'Next');
       return e(
         'div',
         null,
@@ -60,7 +47,7 @@ class Quiz extends React.Component {
     } else {
       return e('a', {className:"next btn btn-primary finish"}, "Finished!");
     }
-  }
+
 }
 
 class Question extends React.Component {
@@ -128,6 +115,6 @@ class Answer extends React.Component {
 
 
 
-
-const domContainer = document.querySelector('#fp-quiz');
-ReactDOM.render(e(Quiz), domContainer);
+export default Quiz;
+// const domContainer = document.querySelector('#fp-quiz');
+// ReactDOM.render(e(Quiz), domContainer);

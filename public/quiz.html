@@ -9,7 +9,7 @@
   <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
   <title>Financial Phoenix</title>
 </head>
-	
+
 <body class="quiz">
   <nav class="navbar navbar-light bg-light">
     <div class="page-center">
@@ -37,42 +37,26 @@
       </div>
     </div>
   </div>
-	
+
   <footer>
     <div class="page-center text-center">
       ©2019 Financial Phoenix
     </div>
   </footer>
-	
+
 	<!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
-  </script> 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
-  </script> 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-  </script> 
-  <script src="https://unpkg.com/react@16/umd/react.development.js">
-  </script> 
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
-  </script> 
-	
-  <script>
-    $(function(){
-      $('.next').click(function(){
-        $('label.active').each(function(i) {
-        var answer = $(this).html();
-        $('.hiddenanswers').append(answer);
-        });
-      });
-                    
-      $('.finish').click(function(){
-        $('#fp-quiz').addClass('finished');
-      });
-    });
-  </script> <!-- Load our React component. -->
-   
-  <script src="quiz.js">
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+  <script src="https://unpkg.com/react@16/umd/react.development.js">
+  </script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+  </script>
+
+
 </body>
 </html>
