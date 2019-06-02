@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+Managing finances is inherently complex. To the point that even getting to the the information that pertains to you can feel incredibly overwhelming. Our goal was to change just that. 
 
-## Available Scripts
+###We set out to
+####Build something that is extremely simple to use. 
+####Build a solution that is not intrusive and/or data hungry
+####One that is lightweight and extremely portable
+####Place high importance on user experience
+####Ensure that low income individuals/families were our absolute focal point
 
-In the project directory, you can run:
+-
 
-### `npm start`
+#####Our main source of inspiration came from the [Personal Finance SubReddit's Prime Directive](https://www.reddit.com/r/personalfinance/wiki/commontopics)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## What it does
+The system takes the user through an extremely simple list of questions. It then generates a curated list of milestones that the user can take as action items.
 
-### `npm test`
+#####In less than 15 seconds, we take you from a water hose of financial information in the world, to a personalized list of action items you can start tackling today
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How we built it
+Our stack: Html/CSS, React.JS, GraphQL with initial alpha hosting through Github Pages
 
-### `npm run build`
+####The Process:
+With low income philadelphians at the center of our minds, we set out identify a short list of factors that would help uniquely identify a person's financial situation. Focusing on low income families helped really personalize our survey to that specific audience.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We decided we wanted to keep the barrier of entry extremely low. Minimum data input. No signup required. No personal data collected. 
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+####The App:
+The application is lightweight enough to be served as a dynamic, database-backed application or a static web application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+It is small enough and light weight enough to host for free on many shared cloud platforms. 
+It is a phenomenal candidate for open source or crowd sourced. 
 
-### `npm run eject`
+####The Milestones:
+The financial milestones we serve are age old advice; not opinionated or specific to our time. We wanted to build something would not need frequent updates and modifications. Less than an hour a month of effort could keep this information up to date, and all the links functioning.  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We wanted this to be something a company (like vanguard) could pick up and drop on an existing site/platform with minor modifications or customization. With that in mind we actually spent a considerable amount of time during the hackathon focusing on the actual content that would go into the app. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We went through multiple iterations, trying to pinpoint what kinds of guidance we wanted to serve to people based on their answers. How to best serve the content, and and to frame it. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Challenges we ran into
+Keeping the application lightweight: In an effort to make the app as user friendly as possible, we often ran into situation where we had to decide whether or not we really wanted implement certain feature that would require a more robust stack. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Getting Started: We originally set out to tackle food insecurity. But after hours of research and learning about the main pain points around food insecurity, we found it extremely difficult to land on a solution that we felt was impactful enough. We even did a considerable amount on research on foodbanks and found that contrary to popular belief, the foodbanks' greatest issue weren't about food donations, but about funding! We didn't feel prepared to solve the financial challenges of non profit organizations.
 
-## Learn More
+Managing state in the front end without needing to persist data. We had to get creative on how to manage the application flow entirely without heavily depending on a database
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Accomplishments that we're proud of
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- We built a close to fully functioning version of our application
+- Our application is visually pleasing
+- We were able to use our own experience from learning about personal finance to create an application that assists those who need it the most. 
+- We worked as a team
+- We had fun!
 
-### Code Splitting
+## What we learned
+- Managing personal finances still feels too complex for the average individual.
+- The median salary is about 32k/year which is just about $15 an hour. People earning this amount are only $10k away from living in poverty. That's one bad medical condition, one bad auto accident, one simple mistake.
+- Most of the advice about personal finance is already out there, we just need people to organize it for those who don't know where to start
+- Intricacies of managing state in the front end
+- The simplicity of Hasura from Huroko
+- Food supply is not the biggest pain point for food banks, but rather financing/funding
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## What's next for Financial Phoenix
+- A distribution strategy, either through financial companies, social programs, state/city governments or simple hosting - solutions
+- Create a contribution model and post the solution on gitbub to allow others to build on top of it.
+- Move vetting of the advice and guidance
+- Increase the personalization of the system (Not by adding more questions, but by linking together the survey answers in a more meaning full way. 
+- Link individuals to social workers or other people that are there to help
+- More UI/UX fine tuning and clean up
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
