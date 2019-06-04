@@ -1,53 +1,33 @@
-<html>
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
-    <title>Financial Phoenix</title>
-</head>
-<body class="home">
-<nav class="navbar navbar-light bg-light">
-    <div class="page-center">
-        <a href="index.html"><img alt="Financial Phoenix Logo logo" src="Financial%20Phoenix-03.svg"
-                                  width="350"></a>
-        <ul>
-            <li>
-                <a href="basics.html">Basics</a>
-            </li>
-            <li>
-                <a class="btn btn-secondary" href="quiz.html">Find Your Path Forward</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
+import React from 'react';
 
-<div class="body-container" style="padding: 50px 0;">
+import Navbar from './Navbar';
+
+function Result() {
+  return <div>
+    <div class="body-container" style={{padding:"50px 0;"}}>
         <div class="page-center-small text-center">
-            <div class="card" style="margin:45px auto;" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}} style={{margin:"45px auto;"}}>
                 <div class="card-body 15-20"><h3 class="15-20">Create Free Checking Account</h3>
                     <p class="15-20">The big change in your life at 18 (19 in Alabama and Nebraska) is you are now
                         legally
                         an adult for contractual purposes so it's time to get a bank account in your own name i.e. not
                         with
                         your parents. You want a no-monthly-fee checking account.</p>
-                    <a class="15-20" , href="https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions">https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions</a>
+                    <a class="15-20"  href="https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions">https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions</a>
                 </div>
             </div>
 
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
 
                 <div class="card-body 15-20"><h3 class="15-20">Create Free Savings Account</h3>
                     <p class="15-20">You are also going to want a savings account. Credit unions online banks and small
                         banks tend to have better customer service than large banks.</p>
-                    <a class="15-20" , href="https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions">https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions</a>
+                    <a class="15-20" href="https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions">https://www.reddit.com/r/personalfinance/wiki/banks_and_credit_unions</a>
                 </div>
 
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
 
                 <div class="card-body 15-20"><h3 class="15-20">Set up a budget</h3>
                     <p class="15-20">Budgeting should be the cornerstone of your financial house. You should focus on
@@ -63,10 +43,10 @@
                         hobbies
                         cable coffee fast food dining and so on. Just remember: always live within your means and try to
                         save up for capital expenses before buying.</p>
-                    <a class="15-20" , href="https://www.investopedia.com/university/budgeting/basics1.asp">https://www.investopedia.com/university/budgeting/basics1.asp</a>
+                    <a class="15-20" href="https://www.investopedia.com/university/budgeting/basics1.asp">https://www.investopedia.com/university/budgeting/basics1.asp</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
 
                 <div class="card-body 15-20"><h3 class="15-20">Read: Importance of long term saving</h3>
                     <p class="15-20">Money you’re investing long term — like for retirement — shouldn’t be in a plain
@@ -75,11 +55,11 @@
                         of
                         return for savings accounts is still a measly 0.09% — or 90 cents per year for every $1000 you
                         deposit.</p>
-                    <a class="15-20" ,
+                    <a class="15-20"
                        href="https://www.nerdwallet.com/blog/investing/invest-savings-short-intermediate-long-term-goals/">https://www.nerdwallet.com/blog/investing/invest-savings-short-intermediate-long-term-goals/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body 20-30"><h3 class="20-30">Make a plan for retirement</h3>
                     <p class="20-30">Depending where you are in life retirement could be very far away or it could
                         be just
@@ -90,10 +70,10 @@
                         to your life. Some factors that could influence the numbers include your age financial
                         situation and
                         risk tolerance for investing.</p>
-                    <a class="20-30" , href="https://www.investopedia.com/university/retirement/retirement2.asp">https://www.investopedia.com/university/retirement/retirement2.asp</a>
+                    <a class="20-30" href="https://www.investopedia.com/university/retirement/retirement2.asp">https://www.investopedia.com/university/retirement/retirement2.asp</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body 20-30"><h3 class="20-30">Set up Emergency Fund</h3>
                     <p class="20-30">For most people 3 to 6 months of expenses is good. A larger emergency fund
                         (e.g. 9 to
@@ -109,11 +89,11 @@
                         2-4 months of expenses should be in your savings account - enough to cover short-term job
                         loss and
                         moderate-to-severe emergencies.</p>
-                    <a class="20-30" ,
+                    <a class="20-30"
                        href="https://www.nerdwallet.com/blog/banking/savings/life-build-emergency-fund/">https://www.nerdwallet.com/blog/banking/savings/life-build-emergency-fund/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body 31-40"><h3 class="31-40">Read: Saving for big life moments</h3>
                     <p class="31-40">If you’re thinking about buying a “big ticket item” — a car or a house/condo or
                         a boat
@@ -124,10 +104,10 @@
                         purchases in cash is always your best bet which is one of many reasons it’s a good idea to
                         spend
                         less than you earn and have a savings plan.</p>
-                    <a class="31-40" , href="https://www.youneedabudget.com/thoughts-on-saving-for-a-down-payment/">https://www.youneedabudget.com/thoughts-on-saving-for-a-down-payment/</a>
+                    <a class="31-40" href="https://www.youneedabudget.com/thoughts-on-saving-for-a-down-payment/">https://www.youneedabudget.com/thoughts-on-saving-for-a-down-payment/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body 31-40"><h3 class="31-40">Plan for end of life</h3>
                     <p class="31-40">There are many concerns to address at end of life including your spiritual
                         affairs your
@@ -138,22 +118,22 @@
                         time for addressing these concerns. Get oriented to a checklist that includes a will living
                         will
                         life insurance money personal details & personal items.</p>
-                    <a class="31-40" ,
+                    <a class="31-40"
                        href="https://getyourshittogether.org/about/">https://getyourshittogether.org/about/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body 31-40"><h3 class="31-40">Read: Career development</h3>
                     <p class="31-40">Continuing professional development or CPD is the ongoing process of developing
                         maintaining and documenting your professional skills. These skills may be gained formally
                         through
                         courses or training or informally on the job or by watching others.Read more
                         at:https://www.skillsyouneed.com/ps/continuing-professional-development.html</p>
-                    <a class="31-40" ,
+                    <a class="31-40"
                        href="https://www.skillsyouneed.com/ps/continuing-professional-development.html">https://www.skillsyouneed.com/ps/continuing-professional-development.html</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body 31-40"><h3 class="31-40">Read: Alternative Income Options</h3>
                     <p class="31-40">This could be money you earn from my home business earned interest and
                         dividends
@@ -164,21 +144,21 @@
                         These are all forms of income you don’t rely on for your day to day living expenses which
                         gives you
                         additional money every month to reach your financial goals.</p>
-                    <a class="31-40" ,
+                    <a class="31-40"
                        href="https://www.forbes.com/sites/jrose/2017/11/02/different-sources-income/">https://www.forbes.com/sites/jrose/2017/11/02/different-sources-income/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body 40+"><h3 class="40+">Prepare for retiring</h3>
                     <p class="40+">The retirement planning process takes time and effort. At times it may seem like
                         an
                         overwhelming task. But what you do today can help you achieve your retirement goals and
                         allow you to
                         maintain the lifestyle you want in your later years.</p>
-                    <a class="40+" , href="https://www.thebalance.com/prepare-for-retirement-success-2894361">https://www.thebalance.com/prepare-for-retirement-success-2894361</a>
+                    <a class="40+" href="https://www.thebalance.com/prepare-for-retirement-success-2894361">https://www.thebalance.com/prepare-for-retirement-success-2894361</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body NoIncome"><h3 class="NoIncome">Build a resume</h3>
                     <p class="NoIncome">Let’s face it: writing a resume can be intimidating. And the pressure to
                         make it
@@ -187,10 +167,10 @@
                         perfect resume doesn’t have to be terrifying. In fact it can be easy — if you know what
                         you’re
                         doing. Just follow a guide such as the one provided by Glassdoor in the link below.</p>
-                    <a class="NoIncome" , href="https://www.glassdoor.com/blog/guide/how-to-write-a-resume/">https://www.glassdoor.com/blog/guide/how-to-write-a-resume/</a>
+                    <a class="NoIncome" href="https://www.glassdoor.com/blog/guide/how-to-write-a-resume/">https://www.glassdoor.com/blog/guide/how-to-write-a-resume/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body NoIncome"><h3 class="NoIncome">Read: Top entry level jobs</h3>
                     <p class="NoIncome">It seems a major shift in employer priorities is occurring in certain fields
                         such as
@@ -203,22 +183,22 @@
                         even paid training for high-achieving candidates. In this day and age it just might be more
                         about
                         the right skills than the right schooling.</p>
-                    <a class="NoIncome" ,
+                    <a class="NoIncome"
                        href="https://www.goodfinancialcents.com/12-highest-paying-jobs-careers-without-no-college-degree-diploma/">https://www.goodfinancialcents.com/12-highest-paying-jobs-careers-without-no-college-degree-diploma/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body NoIncome"><h3 class="NoIncome">Read: Interview skills</h3>
                     <p class="NoIncome">Even the smartest and most qualified job seekers need to prepare for their
                         job
                         interview. Why you ask? Interview skills are learned and there are no second chances to make
                         a great
                         first impression.</p>
-                    <a class="NoIncome" ,
+                    <a class="NoIncome"
                        href="https://www.monster.com/career-advice/article/boost-your-interview-iq">https://www.monster.com/career-advice/article/boost-your-interview-iq</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body NoIncome"><h3 class="NoIncome">Read: Low cost housing options</h3>
                     <p class="NoIncome">If you are in the lower or middle class housing is quite possibly the
                         largest single
@@ -229,11 +209,11 @@
                         money on housing by seeking out lower-cost housing alternatives. You may be surprised to
                         discover
                         what you can do without while still living comfortably.</p>
-                    <a class="NoIncome" ,
+                    <a class="NoIncome"
                        href="https://www.cnbc.com/2017/05/10/how-to-find-cheap-housing-on-a-budget.html">https://www.cnbc.com/2017/05/10/how-to-find-cheap-housing-on-a-budget.html</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Uncer31"><h3 class="Uncer31">Read: Building a high savings rate</h3>
                     <p class="Uncer31">Saving more money helps you become more financially secure stop living
                         paycheck to
@@ -245,11 +225,11 @@
                         that pop
                         up saving more will help give you peace-of-mind and allow you to control your money
                         better.</p>
-                    <a class="Uncer31" ,
+                    <a class="Uncer31"
                        href="https://www.themoneychat.com/how-to-drastically-increase-your-savings-rate/">https://www.themoneychat.com/how-to-drastically-increase-your-savings-rate/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Uncer31"><h3 class="Uncer31">Read: Top entry level jobs</h3>
                     <p class="Uncer31">It seems a major shift in employer priorities is occurring in certain fields
                         such as
@@ -262,22 +242,22 @@
                         even paid training for high-achieving candidates. In this day and age it just might be more
                         about
                         the right skills than the right schooling.</p>
-                    <a class="Uncer31" ,
+                    <a class="Uncer31"
                        href="https://www.goodfinancialcents.com/12-highest-paying-jobs-careers-without-no-college-degree-diploma/">https://www.goodfinancialcents.com/12-highest-paying-jobs-careers-without-no-college-degree-diploma/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Uncer31"><h3 class="Uncer31">Read: Acing the interview</h3>
                     <p class="Uncer31">Even the smartest and most qualified job seekers need to prepare for their
                         job
                         interview. Why you ask? Interview skills are learned and there are no second chances to make
                         a great
                         first impression.</p>
-                    <a class="Uncer31" ,
+                    <a class="Uncer31"
                        href="https://www.monster.com/career-advice/article/boost-your-interview-iq">https://www.monster.com/career-advice/article/boost-your-interview-iq</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Uncer31"><h3 class="Uncer31">Read: Changing Careers</h3>
                     <p class="Uncer31">nterested in a new career? People seek to change careers for many different
                         reasons.
@@ -290,10 +270,10 @@
                         to explore career options to decide if your career needs making over and to choose a career
                         that
                         will be more satisfying for you.</p>
-                    <a class="Uncer31" , href="https://www.thebalancecareers.com/successful-career-change-2058452">https://www.thebalancecareers.com/successful-career-change-2058452</a>
+                    <a class="Uncer31" href="https://www.thebalancecareers.com/successful-career-change-2058452">https://www.thebalancecareers.com/successful-career-change-2058452</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Uncer31"><h3 class="Uncer31">Read: Continuing Education</h3>
                     <p class="Uncer31">It turns out that learning something new not only helps the brain function
                         more
@@ -302,11 +282,11 @@
                         social meet new friends and expand your professional network! So if you want to kick your
                         career
                         into overdrive consider going back to the classroom.</p>
-                    <a class="Uncer31" ,
+                    <a class="Uncer31"
                        href="https://www.themuse.com/advice/schools-not-out-the-importance-of-continuing-education">https://www.themuse.com/advice/schools-not-out-the-importance-of-continuing-education</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Over31"><h3 class="Over31">Read: Low Risk Investing</h3>
                     <p class="Over31">While some investors are inclined to take more risk than others there is
                         always a
@@ -316,11 +296,11 @@
                         relationship
                         between risk and reward. The classic investment examples include stocks bonds and treasury
                         bills.</p>
-                    <a class="Over31" ,
+                    <a class="Over31"
                        href="https://www.money-zine.com/investing/investing/low-and-no-risk-investments/">https://www.money-zine.com/investing/investing/low-and-no-risk-investments/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Over31"><h3 class="Over31">Read: Continuing Education</h3>
                     <p class="Over31">It turns out that learning something new not only helps the brain function
                         more
@@ -329,11 +309,11 @@
                         social meet new friends and expand your professional network! So if you want to kick your
                         career
                         into overdrive consider going back to the classroom.</p>
-                    <a class="Over31" ,
+                    <a class="Over31"
                        href="https://www.themuse.com/advice/schools-not-out-the-importance-of-continuing-education">https://www.themuse.com/advice/schools-not-out-the-importance-of-continuing-education</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Kids"><h3 class="Kids">Create Saving plan for college</h3>
                     <p class="Kids">Saving for college in today’s world is a big challenge especially given the
                         costs. The
@@ -352,11 +332,11 @@
                         you start the better you can take advantage of the miracle of compounding. If you push off
                         saving
                         your child will incur more debt.</p>
-                    <a class="Kids" ,
+                    <a class="Kids"
                        href="https://www.forbes.com/sites/nealegodfrey/2017/10/15/saving-for-college-three-choices/#5ca83780402d">https://www.forbes.com/sites/nealegodfrey/2017/10/15/saving-for-college-three-choices/#5ca83780402d</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Kids"><h3 class="Kids">Create budget for kids</h3>
                     <p class="Kids">Becoming a parent will keep your finances in flux for years to come. You’re in
                         for a
@@ -367,10 +347,10 @@
                         but your budgeting approach doesn’t have to. You’re still stretching your income to cover
                         your
                         expenses and debts plus savings.</p>
-                    <a class="Kids" , href="https://www.nerdwallet.com/blog/finance/budgeting-new-parents/">https://www.nerdwallet.com/blog/finance/budgeting-new-parents/</a>
+                    <a class="Kids" href="https://www.nerdwallet.com/blog/finance/budgeting-new-parents/">https://www.nerdwallet.com/blog/finance/budgeting-new-parents/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Kids"><h3 class="Kids">Read: Low cost extra carriculars</h3>
                     <p class="Kids">Extracurricular activities boost confidence build self-esteem and allow children
                         to
@@ -381,11 +361,11 @@
                         lessons and recreational sports can offer the same benefits and you can reduce the strain on
                         your
                         bank account if you know how to cut costs on coveted activities.</p>
-                    <a class="Kids" ,
+                    <a class="Kids"
                        href="https://getoutofdebt.org/114023/7-affordable-alternatives-to-expensive-extracurricular-activities">https://getoutofdebt.org/114023/7-affordable-alternatives-to-expensive-extracurricular-activities</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Spouse"><h3 class="Spouse">Read: Finances and Relationships</h3>
                     <p class="Spouse">When do you start talking about money in a relationship? While financial
                         compatibility
@@ -401,11 +381,11 @@
                         other would
                         rather take a local weekend camping trip it’s worth discussing the difference in spending
                         styles.</p>
-                    <a class="Spouse" ,
+                    <a class="Spouse"
                        href="https://www.forbes.com/sites/mayakachroolevine/2017/03/27/love-money-financial-talks-to-have-at-every-stage-of-your-relationship/#300658324b76">https://www.forbes.com/sites/mayakachroolevine/2017/03/27/love-money-financial-talks-to-have-at-every-stage-of-your-relationship/#300658324b76</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Spouse"><h3 class="Spouse">Setup a prenup or postnup</h3>
                     <p class="Spouse">You can’t predict the future. The hard truth is that the way you feel about
                         your
@@ -416,11 +396,11 @@
                         if your feelings change in the future now when you are sitting on the same side of the table
                         and
                         both truly want what is best for each other.</p>
-                    <a class="Spouse" ,
+                    <a class="Spouse"
                        href="https://www.forbes.com/sites/heatherlocus/2018/09/23/why-prenuptial-and-postnuptial-agreements-lead-to-stronger-marriages-and-prevent-disastrous-divorces/#17ffbe336488">https://www.forbes.com/sites/heatherlocus/2018/09/23/why-prenuptial-and-postnuptial-agreements-lead-to-stronger-marriages-and-prevent-disastrous-divorces/#17ffbe336488</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Parents/Grandparents"><h3 class="Parents/Grandparents">Setup plan to save for
                     funeral
                     costs</h3>
@@ -432,10 +412,10 @@
                         can permit use of remaining time for addressing these concerns. Get oriented to a checklist
                         that
                         includes a will living will life insurance money personal details & personal items.</p>
-                    <a class="Parents/Grandparents" , href="https://getyourshittogether.org/about/">https://getyourshittogether.org/about/</a>
+                    <a class="Parents/Grandparents" href="https://getyourshittogether.org/about/">https://getyourshittogether.org/about/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Parents/Grandparents"><h3 class="Parents/Grandparents">Read: Asisted living
                     options and
                     costs</h3>
@@ -452,11 +432,11 @@
                         someone has spent down all of their assets and is essentially destitute. Saving early and
                         often
                         should form the foundation of your plan.</p>
-                    <a class="Parents/Grandparents" ,
+                    <a class="Parents/Grandparents"
                        href="https://health.usnews.com/wellness/aging-well/articles/2018-10-10/how-should-i-finance-assisted-living">https://health.usnews.com/wellness/aging-well/articles/2018-10-10/how-should-i-finance-assisted-living</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CreditCard"><h3 class="CreditCard">Paying down high interest debt</h3>
                     <p class="CreditCard">When budgeting you should use your extra money to pay down your high
                         interest debt
@@ -476,11 +456,11 @@
                         as paid
                         off debts free up minimum payments. The downside is that larger loans (that may be at higher
                         interest rates) are left untouched for longer costing more in the long run.</p>
-                    <a class="CreditCard" ,
+                    <a class="CreditCard"
                        href="http://money.com/money/collection-post/2791960/which-debts-should-i-pay-off-first/">http://money.com/money/collection-post/2791960/which-debts-should-i-pay-off-first/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CreditCard"><h3 class="CreditCard">Read: How to use low interest transfer blances
                     cards</h3>
                     <p class="CreditCard">A balance transfer allows you to move high-interest debt onto a credit
@@ -490,21 +470,21 @@
                         you hundreds or even thousands of dollars in interest money you can apply toward getting out
                         of debt
                         sooner.</p>
-                    <a class="CreditCard" , href="https://www.nerdwallet.com/best/credit-cards/balance-transfer">https://www.nerdwallet.com/best/credit-cards/balance-transfer</a>
+                    <a class="CreditCard" href="https://www.nerdwallet.com/best/credit-cards/balance-transfer">https://www.nerdwallet.com/best/credit-cards/balance-transfer</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CreditCard"><h3 class="CreditCard">Read: Myths about credit</h3>
                     <p class="CreditCard">Believing credit card myths can have you paying fees and interest
                         unnecessarily
                         keeping cards you don’t need or not getting cards that could earn you big rewards. Before
                         you take
                         anything at face value do a little digging to make sure it’s the real deal.</p>
-                    <a class="CreditCard" ,
+                    <a class="CreditCard"
                        href="https://www.fool.com/the-ascent/credit-cards/blog/6-credit-card-myths-you-should-stop-believing/">https://www.fool.com/the-ascent/credit-cards/blog/6-credit-card-myths-you-should-stop-believing/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CreditCard"><h3 class="CreditCard">Read: CreditCard 101</h3>
                     <p class="CreditCard">Credit cards are far and away the most widespread form of consumer credit
                         in the
@@ -516,11 +496,11 @@
                         within the
                         below link can teach you what you need to know before jumping into the world of credit
                         cards.</p>
-                    <a class="CreditCard" ,
+                    <a class="CreditCard"
                        href="https://www.reddit.com/r/personalfinance/wiki/creditcards#wiki_credit_and_credit.2Fdebit_cards">https://www.reddit.com/r/personalfinance/wiki/creditcards#wiki_credit_and_credit.2Fdebit_cards</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body StudentLoan"><h3 class="StudentLoan">Refinance high interest loans (over 7%)</h3>
                     <p class="StudentLoan">Debt consolidation is sometimes referred to as refinancing; this alludes
                         to the
@@ -536,10 +516,10 @@
                         constantly
                         changing many borrowers can refinance for better interest rates all in the hopes of spending
                         less.</p>
-                    <a class="StudentLoan" , href="https://www.thefrugalgene.com/high-interest-debt/">https://www.thefrugalgene.com/high-interest-debt/</a>
+                    <a class="StudentLoan" href="https://www.thefrugalgene.com/high-interest-debt/">https://www.thefrugalgene.com/high-interest-debt/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body StudentLoan"><h3 class="StudentLoan">Read: StudentLoan 101</h3>
                     <p class="StudentLoan">"You’ve done everything you needed to do to get into college: got good
                         grades
@@ -553,11 +533,11 @@
                         loan?Studen Loan Hero has put together the basics you should know about student loans and
                         how they
                         work."</p>
-                    <a class="StudentLoan" ,
+                    <a class="StudentLoan"
                        href="https://studentloanhero.com/featured/what-is-a-student-loan-101-work-apply/">https://studentloanhero.com/featured/what-is-a-student-loan-101-work-apply/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body StudentLoan"><h3 class="StudentLoan">Read: Income based payments</h3>
                     <p class="StudentLoan">"Looking for a way to get a better handle on your federal student loan
                         payments?
@@ -569,22 +549,22 @@
                         plan can provide much-needed relief.But before signing on the dotted line you’ll want to be
                         sure you
                         understand IDR plans and how they can affect your finances and student debt. "</p>
-                    <a class="StudentLoan" ,
+                    <a class="StudentLoan"
                        href="https://studentloanhero.com/featured/income-based-repayment-plan/">https://studentloanhero.com/featured/income-based-repayment-plan/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body StudentLoan"><h3 class="StudentLoan">Pay off student loans</h3>
                     <p class="StudentLoan">"Here are 4 easy ways to pay off your student loans:1. Refinance your
                         student
                         loans2. Consolidate your student loans3. Increase your monthly student loan payment4. Make a
                         lump
                         sum payment"</p>
-                    <a class="StudentLoan" ,
+                    <a class="StudentLoan"
                        href="https://www.forbes.com/sites/zackfriedman/2018/10/30/best-ways-to-pay-off-student-loans/#130f2004ab42">https://www.forbes.com/sites/zackfriedman/2018/10/30/best-ways-to-pay-off-student-loans/#130f2004ab42</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body AutoLoan"><h3 class="AutoLoan">Pay off auto loan</h3>
                     <p class="AutoLoan">"About seven out of 10 people borrow money to buy their cars and a car loan
                         is one
@@ -595,11 +575,11 @@
                         to pay. So we want to help you get out from under that loan faster and save money on
                         interest by
                         giving you 6 ways to pay off your car loan early."</p>
-                    <a class="AutoLoan" ,
+                    <a class="AutoLoan"
                        href="https://www.payoff.com/life/money/6-ways-to-pay-off-your-car-loan-early/">https://www.payoff.com/life/money/6-ways-to-pay-off-your-car-loan-early/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body AutoLoan"><h3 class="AutoLoan">Read: Car finance 101</h3>
                     <p class="AutoLoan">"Getting an auto loan isn’t as tricky as securing a mortgage since the
                         lending
@@ -612,15 +592,15 @@
                         you can expect from the car-loan process including how to qualify for a loan where to obtain
                         one and
                         whether refinancing is a good idea."</p>
-                    <a class="AutoLoan" , href="https://www.thesimpledollar.com/loans/auto/auto-loans-guide/">https://www.thesimpledollar.com/loans/auto/auto-loans-guide/</a>
+                    <a class="AutoLoan" href="https://www.thesimpledollar.com/loans/auto/auto-loans-guide/">https://www.thesimpledollar.com/loans/auto/auto-loans-guide/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body AutoLoan"><h3 class="AutoLoan">"Read: Should I sell my car and if so</h3>
                     <p class="AutoLoan"> how?"</p>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body AutoLoan"><h3 class="AutoLoan">Find out if you can live without a car</h3>
                     <p class="AutoLoan">"If you’ve ever been stuck in a traffic jam sitting motionless behind a
                         diesel-belching truck as cyclists glide past happily in the bike lane it may have crossed
@@ -639,10 +619,10 @@
                         wheel.
                         Going without a car just might be the key to a healthier more frugal and less stressful
                         life."</p>
-                    <a class="AutoLoan" , href="https://www.moneycrashers.com/living-without-car/">https://www.moneycrashers.com/living-without-car/</a>
+                    <a class="AutoLoan" href="https://www.moneycrashers.com/living-without-car/">https://www.moneycrashers.com/living-without-car/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Other"><h3 class="Other">Pay off personal loans</h3>
                     <p class="Other">"You can apply for personal loans at banks credit unions or through online
                         lenders. And
@@ -657,11 +637,11 @@
                         unsecured personal loan there is nothing for a lender to take back should you stop making
                         your
                         payments. Because of this this type of loan is riskier for lenders."</p>
-                    <a class="Other" ,
+                    <a class="Other"
                        href="https://www.magnifymoney.com/blog/personal-loans/4-traps-to-avoid-when-getting-a-personal-loan/">https://www.magnifymoney.com/blog/personal-loans/4-traps-to-avoid-when-getting-a-personal-loan/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Other"><h3 class="Other">Read: Debt traps to avoid</h3>
                     <p class="Other">"The best way to avoid debt is to be proactive about managing your
                         money.Avoiding debt
@@ -678,10 +658,10 @@
                         trillion) threaten your financial stability. After years of unpaid bills and inadequate
                         resources
                         bankruptcy might be the only option.Don’t go there."</p>
-                    <a class="Other" , href="https://www.debt.org/advice/avoiding-debt/">https://www.debt.org/advice/avoiding-debt/</a>
+                    <a class="Other" href="https://www.debt.org/advice/avoiding-debt/">https://www.debt.org/advice/avoiding-debt/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body Other"><h3 class="Other">Consolidate you debt</h3>
                     <p class="Other">"Debt consolidation rolls high-interest debts such as credit card bills into a
                         single
@@ -692,21 +672,21 @@
                         different interest rates payments and due dates debt consolidation is a sound approach you
                         can
                         tackle on your own."</p>
-                    <a class="Other" , href="https://www.nerdwallet.com/blog/finance/consolidate-debt/">https://www.nerdwallet.com/blog/finance/consolidate-debt/</a>
+                    <a class="Other" href="https://www.nerdwallet.com/blog/finance/consolidate-debt/">https://www.nerdwallet.com/blog/finance/consolidate-debt/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body None"><h3 class="None">Obtain a GED</h3>
                     <p class="None">Successful completion of the General Educational Development (GED) exam leads to
                         a high
                         school equivalency credential for adult learners without a high school diploma. This GED
                         credential
                         can be used to pursue a college education or career advancement.</p>
-                    <a class="None" ,
+                    <a class="None"
                        href="https://study.com/articles/How_to_get_a_GED_a_Step-by-Step_Process_to_Earn_a_GED.html">https://study.com/articles/How_to_get_a_GED_a_Step-by-Step_Process_to_Earn_a_GED.html</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body None"><h3 class="None">Read: Vocational Training and Apprenticeships</h3>
                     <p class="None">"Apprenticeships provide affordable pathways to high-paying jobs and careers
                         without the
@@ -724,10 +704,10 @@
                         one-stop
                         source to connect career seekers employers and education partners with apprenticeship
                         resources."</p>
-                    <a class="None" , href="https://www.apprenticeship.gov/">https://www.apprenticeship.gov/</a>
+                    <a class="None" href="https://www.apprenticeship.gov/">https://www.apprenticeship.gov/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSNoCollege"><h3 class="HSNoCollege">Read: Vocational Training and
                     Apprenticeships</h3>
                     <p class="HSNoCollege">"Apprenticeships provide affordable pathways to high-paying jobs and
@@ -747,11 +727,11 @@
                         one-stop source to connect career seekers employers and education partners with
                         apprenticeship
                         resources."</p>
-                    <a class="HSNoCollege" ,
+                    <a class="HSNoCollege"
                        href="https://www.apprenticeship.gov">https://www.apprenticeship.gov</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSNoCollege"><h3 class="HSNoCollege">Get a job</h3>
                     <p class="HSNoCollege">College has never been more expensive and while achieving a degree
                         typically does
@@ -762,11 +742,11 @@
                         paths providing on-the-job training these days it's often possible to move up into
                         higher-paying
                         positions without an additional degree.</p>
-                    <a class="HSNoCollege" ,
+                    <a class="HSNoCollege"
                        href="https://www.careerbuilder.com/advice/wellpaying-jobs-that-you-can-get-right-out-of-high-school">https://www.careerbuilder.com/advice/wellpaying-jobs-that-you-can-get-right-out-of-high-school</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSNoCollege"><h3 class="HSNoCollege">Read: Top college alternative paths</h3>
                     <p class="HSNoCollege">"college is not for everyone — nor is it truly needed for everyone — and
                         forcing
@@ -778,11 +758,11 @@
                         teens do not need to attend college to become adults and they certainly do not need to
                         attend to
                         land a good career."</p>
-                    <a class="HSNoCollege" ,
+                    <a class="HSNoCollege"
                        href="https://www.livecareer.com/career/advice/jobs/college-alternatives">https://www.livecareer.com/career/advice/jobs/college-alternatives</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSNoCollege"><h3 class="HSNoCollege">Top entry level jobs with high school
                     deploma</h3>
                     <p class="HSNoCollege">Although people with bachelor's degrees usually earn more money than
@@ -794,11 +774,11 @@
                         can get high paying jobs without a degree. You may need experience for advanced positions
                         and some
                         employers may require some college credits.</p>
-                    <a class="HSNoCollege" ,
+                    <a class="HSNoCollege"
                        href="https://www.thebalancecareers.com/highest-paying-occupations-without-a-degree-525687">https://www.thebalancecareers.com/highest-paying-occupations-without-a-degree-525687</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSCollege"><h3 class="HSCollege">Read: StudentLoans 101</h3>
                     <p class="HSCollege">"One of the biggest problems with student loan debt in America is the lack
                         of
@@ -811,11 +791,11 @@
                         them and so you can make the best choices for you and your situation including the best ways
                         to get
                         the debt paid off."</p>
-                    <a class="HSCollege" ,
+                    <a class="HSCollege"
                        href="https://clark.com/commoncents/student-loans-101-everything-much-borrow-paying-off/">https://clark.com/commoncents/student-loans-101-everything-much-borrow-paying-off/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSCollege"><h3 class="HSCollege">Make a list of possible internships and part
                     time
                     jobs</h3>
@@ -828,10 +808,10 @@
                         internship? Wayup has put together a helpful guide that overviews the steps you can take to
                         finding
                         an internship."</p>
-                    <a class="HSCollege" , href="https://www.wayup.com/guide/how-do-i-get-an-internship/">https://www.wayup.com/guide/how-do-i-get-an-internship/</a>
+                    <a class="HSCollege" href="https://www.wayup.com/guide/how-do-i-get-an-internship/">https://www.wayup.com/guide/how-do-i-get-an-internship/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSCollege"><h3 class="HSCollege">Create a career plan</h3>
                     <p class="HSCollege">If possible every college student should start planning for the future
                         early. This
@@ -843,11 +823,11 @@
                         graduation season or a long period of unemployment or underemployment. As a college student
                         you want
                         to stay on top of what needs to be done to create a positive outcome.</p>
-                    <a class="HSCollege" ,
+                    <a class="HSCollege"
                        href="https://www.forbes.com/sites/shelcyvjoseph/2018/08/11/what-every-college-student-should-be-doing-for-career-success/#5790f7da62c4">https://www.forbes.com/sites/shelcyvjoseph/2018/08/11/what-every-college-student-should-be-doing-for-career-success/#5790f7da62c4</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body HSCollege"><h3 class="HSCollege">Top earning college degrees</h3>
                     <p class="HSCollege">Through an analysis of hundreds of thousands of resumes and corresponding
                         salary
@@ -858,10 +838,10 @@
                         for each major they’ve identified three of the most popular jobs that new grads really take
                         upon
                         entering the real world.</p>
-                    <a class="HSCollege" , href="https://www.glassdoor.com/blog/50-highest-paying-college-majors/">https://www.glassdoor.com/blog/50-highest-paying-college-majors/</a>
+                    <a class="HSCollege" href="https://www.glassdoor.com/blog/50-highest-paying-college-majors/">https://www.glassdoor.com/blog/50-highest-paying-college-majors/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CollegeDegree"><h3 class="CollegeDegree">Make a plan continuous learning</h3>
                     <p class="CollegeDegree">"Professional growth is all about gaining new skills and experience.
                         That means
@@ -872,11 +852,11 @@
                         need to develop personally first. That’s the only way you’ll be able to handle your fears
                         take on
                         more responsibility and succeed with greater challenges."</p>
-                    <a class="CollegeDegree" ,
+                    <a class="CollegeDegree"
                        href="https://www.cv-library.co.uk/career-advice/development/5-ways-manage-professional-development/">https://www.cv-library.co.uk/career-advice/development/5-ways-manage-professional-development/</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CollegeDegree"><h3 class="CollegeDegree">Set up your work benefits</h3>
                     <p class="CollegeDegree">"Getting a new job is both exciting and nerve-wracking. Maybe it’s your
                         first
@@ -890,22 +870,22 @@
                         easier on you the writers at MoneyUnder30 have put together a simple benefits guide to help
                         you
                         choose your benefits appropriately at that new job."</p>
-                    <a class="CollegeDegree" ,
+                    <a class="CollegeDegree"
                        href="https://www.moneyunder30.com/how-to-select-benefits-at-your-new-job">https://www.moneyunder30.com/how-to-select-benefits-at-your-new-job</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CollegeDegree"><h3 class="CollegeDegree">Find a job</h3>
                     <p class="CollegeDegree">Securing that first job after college can be a daunting prospect for
                         many
                         college seniors and recent graduates. However you can take charge of the process by
                         following a few
                         simple strategies to get your career off to a positive start. </p>
-                    <a class="CollegeDegree" ,
+                    <a class="CollegeDegree"
                        href="https://www.thebalance.com/how-to-land-your-first-job-after-college-2059853">https://www.thebalance.com/how-to-land-your-first-job-after-college-2059853</a>
                 </div>
             </div>
-            <div class="card" style="margin:45px auto;">
+            <div class="card" style={{margin:"45px auto;"}}>
                 <div class="card-body CollegeDegree"><h3 class="CollegeDegree">Read: Things to know when entering the
                     workforce</h3>
                     <p class="CollegeDegree">You’ve landed your first “real” job and steady paychecks are an actual
@@ -915,12 +895,13 @@
                         to really set the stage for adulthood. Not to put too much pressure on you but the
                         foundation you
                         build now can help set you up for success. </p>
-                    <a class="CollegeDegree" ,
+                    <a class="CollegeDegree"
                        href="https://www.northwesternmutual.com/life-and-money/what-to-know-about-money-when-you-enter-the-workforce/">https://www.northwesternmutual.com/life-and-money/what-to-know-about-money-when-you-enter-the-workforce/</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</body>
-</html>
+    </div>
+    ;
+}
+export default Result;

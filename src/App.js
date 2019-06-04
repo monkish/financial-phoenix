@@ -7,6 +7,7 @@ import Quiz from './Quiz';
 import Basics from './Basics';
 import Home from './Home';
 import Footer from './Footer';
+import Result from './Result';
 function App() {
   // ToDo:
   // export things using gh-pages and webpack
@@ -18,7 +19,7 @@ function App() {
   <Route exact component={Home} path="/" />
   <Route exact component={Basics} path="/basics" />
   <Route exact component={Quiz} path="/quiz" />
-
+<Route exact component={Result} path="/result" />
 </div>
 </Router>
 <Footer />

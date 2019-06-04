@@ -2,6 +2,7 @@
 import React, {useState} from 'react';
 
 import Question from './Question';
+import Result from './Result';
 
 function Quiz() {
   const [index, setIndex] = useState(0);
@@ -32,17 +33,13 @@ function Quiz() {
       true
     ];
     var i = index;
-    var href = "javascript:void(0)";
-    if ((i+1) == title.length) {
-      href = "result.html";
-    }
     if (i < title.length){
       return <div>
         <Question key={title[i]} text={title[i]} answers={options[i]} ignoreNext={single[i]}/>
-        <a href={href} onClick={() => setIndex(index + 1)} className='next btn btn-primary'>Next</a>
+        <a onClick={() => setIndex(index + 1)} className='next btn btn-primary'>Next</a>
         </div>;
     } else {
-      return <a className="next btn btn-primary finish">Finished!</a>;
+      return <Result/>;
     }
 
 }
