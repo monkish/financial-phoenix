@@ -5,11 +5,12 @@ import Navbar from './Navbar';
 
 function Card(props) {
   return <div class="card" style={{margin:"45px auto;"}}>
-      <div class="card-body" class={props.class}><h3 class={props.class}>{props.title}">
+      <div class="card-body" class={props.class}><h3 class={props.class}>{props.title}</h3>
           {props.children}
       </div>
 
   </div>;
+}
 }
 
 function Result() {
