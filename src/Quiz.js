@@ -1,6 +1,7 @@
 'use strict';
 import React, {useState} from 'react';
-const e = React.createElement;
+
+import Question from './Question';
 
 function Quiz() {
   const [index, setIndex] = useState(0);
@@ -36,83 +37,15 @@ function Quiz() {
       href = "result.html";
     }
     if (i < title.length){
-      var questions = e( Question, {key: title[i], text: title[i], answers: options[i], ignoreNext: single[i]});
-      var nextButton = e('a', {"href": href, onClick: () => setIndex(index + 1), className:'next btn btn-primary'}, 'Next');
-      return e(
-        'div',
-        null,
-        questions,
-        nextButton
-      );
+      return <div>
+        <Question key={title[i]} text={title[i]} answers={options[i]} ignoreNext={single[i]}/>
+        <a href={href} onClick={() => setIndex(index + 1)} className='next btn btn-primary'>Next</a>
+        </div>;
     } else {
-      return e('a', {className:"next btn btn-primary finish"}, "Finished!");
+      return <a className="next btn btn-primary finish">Finished!</a>;
     }
 
 }
-
-class Question extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { text : props.text, answers: props.answers, ignoreNext: props.ignoreNext};
-  }
-
-  render() {
-    var array = [];
-    for (var i = 0; i < this.state.answers.length; i++) {
-      var answer = this.state.answers[i];
-
-      var t = 'checkbox';
-      if (this.state.ignoreNext) {
-        t = 'radio';
-      }
-
-      array.push( e(Answer, {key: answer.toString(), text: answer, type: t}));
-    }
-
-    return e('h2',
-      null,
-      this.state.text,
-      e(
-        'div',
-        {className:"btn-group btn-group-toggle", 'data-toggle':"buttons"},
-        array
-      )
-    );
-
-  }
-
-}
-
-class Answer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { text : props.text, active: false, type: props.type};
-  }
-
-  onClick() {
-    this.setState((state) => {
-      //todo: keep track of answers selected
-      //state.answers.push(chosen);
-      state.active = true;
-      return state;
-    });
-
-  }
-
-  render() {
-    //var clazz = this.state.active ? 'answer active' : 'answer';
-    console.log(this.state.type);
-    return e(
-      'label',
-      {className:'btn btn-secondary'},
-      e('input', {key: this.state.text.toString(), type: this.state.type,
-        //className: clazz,
-        onClick: this.onClick.bind(this)}),
-      e('span', {className:'value'}, this.state.text)
-    );
-  }
-}
-
 
 
 export default Quiz;

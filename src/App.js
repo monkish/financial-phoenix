@@ -8,18 +8,16 @@ import Basics from './Basics';
 import Home from './Home';
 import Footer from './Footer';
 function App() {
+  // ToDo:
+  // export things using gh-pages and webpack
+  // turn result.html into a component
   return  <div className="home">
 <Router>
 <div>
 <Navbar />
-
-// ToDo: figure out why home loads above each component?
-// export things using gh-pages and webpack
-// turn result.html into a component
-// stop using createElement, use jsx
-  <Route component={Home} path="/" />
-  <Route component={Basics} path="/basics" />
-  <Route component={Quiz} path="/quiz" />
+  <Route exact component={Home} path="/" />
+  <Route exact component={Basics} path="/basics" />
+  <Route exact component={Quiz} path="/quiz" />
 
 </div>
 </Router>
