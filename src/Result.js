@@ -514,579 +514,563 @@ function Result() {
             >
               https://health.usnews.com/wellness/aging-well/articles/2018-10-10/how-should-i-finance-assisted-living
             </a>
-</Card>
-            <Card class="CreditCard" title="Paying down high interest debt">
-              <p class="CreditCard">
-                When budgeting you should use your extra money to pay down your
-                high interest debt (e.g. debts much over 4% interest rate). In
-                all cases you should make the minimum payments on all of your
-                debts before paying down specific debts more quickly. There are
-                two main methods of paying down debt: In the avalanche method
-                debts are paid down in order of interest rate starting with the
-                debt that carries the highest interest rate. This is the
-                financially optimal method of paying down debt and you will pay
-                less money overall compared to the snowball method. The snowball
-                method popularized by Dave Ramsey debts are paid down in order
-                of balance size starting with the smallest. Paying off small
-                debts first may give you a psychological boost and improve one's
-                cash flow situation as paid off debts free up minimum payments.
-                The downside is that larger loans (that may be at higher
-                interest rates) are left untouched for longer costing more in
-                the long run.
-              </p>
-              <a
-                class="CreditCard"
-                href="http://money.com/money/collection-post/2791960/which-debts-should-i-pay-off-first/"
-              >
-                http://money.com/money/collection-post/2791960/which-debts-should-i-pay-off-first/
-              </a>
-            </Card>
-
-            <Card
+          </Card>
+          <Card class="CreditCard" title="Paying down high interest debt">
+            <p class="CreditCard">
+              When budgeting you should use your extra money to pay down your
+              high interest debt (e.g. debts much over 4% interest rate). In all
+              cases you should make the minimum payments on all of your debts
+              before paying down specific debts more quickly. There are two main
+              methods of paying down debt: In the avalanche method debts are
+              paid down in order of interest rate starting with the debt that
+              carries the highest interest rate. This is the financially optimal
+              method of paying down debt and you will pay less money overall
+              compared to the snowball method. The snowball method popularized
+              by Dave Ramsey debts are paid down in order of balance size
+              starting with the smallest. Paying off small debts first may give
+              you a psychological boost and improve one's cash flow situation as
+              paid off debts free up minimum payments. The downside is that
+              larger loans (that may be at higher interest rates) are left
+              untouched for longer costing more in the long run.
+            </p>
+            <a
               class="CreditCard"
-              title="Read: How to use low interest transfer blances
+              href="http://money.com/money/collection-post/2791960/which-debts-should-i-pay-off-first/"
+            >
+              http://money.com/money/collection-post/2791960/which-debts-should-i-pay-off-first/
+            </a>
+          </Card>
+
+          <Card
+            class="CreditCard"
+            title="Read: How to use low interest transfer blances
                     cards"
+          >
+            <p class="CreditCard">
+              A balance transfer allows you to move high-interest debt onto a
+              credit card with a lower rate — often 0% for well over a year.
+              Transferring a balance to one of these cards can save you hundreds
+              or even thousands of dollars in interest money you can apply
+              toward getting out of debt sooner.
+            </p>
+            <a
+              class="CreditCard"
+              href="https://www.nerdwallet.com/best/credit-cards/balance-transfer"
             >
-              <p class="CreditCard">
-                A balance transfer allows you to move high-interest debt onto a
-                credit card with a lower rate — often 0% for well over a year.
-                Transferring a balance to one of these cards can save you
-                hundreds or even thousands of dollars in interest money you can
-                apply toward getting out of debt sooner.
-              </p>
-              <a
-                class="CreditCard"
-                href="https://www.nerdwallet.com/best/credit-cards/balance-transfer"
-              >
-                https://www.nerdwallet.com/best/credit-cards/balance-transfer
-              </a>
-            </Card>
+              https://www.nerdwallet.com/best/credit-cards/balance-transfer
+            </a>
+          </Card>
 
-            <Card class="CreditCard" title="Read: Myths about credit">
-              <p class="CreditCard">
-                Believing credit card myths can have you paying fees and
-                interest unnecessarily keeping cards you don’t need or not
-                getting cards that could earn you big rewards. Before you take
-                anything at face value do a little digging to make sure it’s the
-                real deal.
-              </p>
-              <a
-                class="CreditCard"
-                href="https://www.fool.com/the-ascent/credit-cards/blog/6-credit-card-myths-you-should-stop-believing/"
-              >
-                https://www.fool.com/the-ascent/credit-cards/blog/6-credit-card-myths-you-should-stop-believing/
-              </a>
-            </Card>
+          <Card class="CreditCard" title="Read: Myths about credit">
+            <p class="CreditCard">
+              Believing credit card myths can have you paying fees and interest
+              unnecessarily keeping cards you don’t need or not getting cards
+              that could earn you big rewards. Before you take anything at face
+              value do a little digging to make sure it’s the real deal.
+            </p>
+            <a
+              class="CreditCard"
+              href="https://www.fool.com/the-ascent/credit-cards/blog/6-credit-card-myths-you-should-stop-believing/"
+            >
+              https://www.fool.com/the-ascent/credit-cards/blog/6-credit-card-myths-you-should-stop-believing/
+            </a>
+          </Card>
 
-            <Card class="CreditCard" title="Read: CreditCard 101">
-              <p class="CreditCard">
-                Credit cards are far and away the most widespread form of
-                consumer credit in the U.S. A credit card has a dollar limit per
-                account up to which the cardholder and their authorized users
-                are allowed to spend before being cut off. The card issuer is
-                extending an unsecured (i.e. no collateral) loan up to the
-                amount of the card limit for a period of one month. The post
-                within the below link can teach you what you need to know before
-                jumping into the world of credit cards.
-              </p>
-              <a
-                class="CreditCard"
-                href="https://www.reddit.com/r/personalfinance/wiki/creditcards#wiki_credit_and_credit.2Fdebit_cards"
-              >
-                https://www.reddit.com/r/personalfinance/wiki/creditcards#wiki_credit_and_credit.2Fdebit_cards
-              </a>
-            </Card>
+          <Card class="CreditCard" title="Read: CreditCard 101">
+            <p class="CreditCard">
+              Credit cards are far and away the most widespread form of consumer
+              credit in the U.S. A credit card has a dollar limit per account up
+              to which the cardholder and their authorized users are allowed to
+              spend before being cut off. The card issuer is extending an
+              unsecured (i.e. no collateral) loan up to the amount of the card
+              limit for a period of one month. The post within the below link
+              can teach you what you need to know before jumping into the world
+              of credit cards.
+            </p>
+            <a
+              class="CreditCard"
+              href="https://www.reddit.com/r/personalfinance/wiki/creditcards#wiki_credit_and_credit.2Fdebit_cards"
+            >
+              https://www.reddit.com/r/personalfinance/wiki/creditcards#wiki_credit_and_credit.2Fdebit_cards
+            </a>
+          </Card>
 
-            <Card
+          <Card
+            class="StudentLoan"
+            title="Refinance high interest loans (over 7%)"
+          >
+            <p class="StudentLoan">
+              Debt consolidation is sometimes referred to as refinancing; this
+              alludes to the fact that you are basically restructuring your
+              previous debt. You are signing up for a new interest rate new
+              payments and new repayment terms which means you’re signing up for
+              a new financing deal. Such a product is typically offered for
+              credit card debt (as mentioned above) student loans (offered by
+              private lenders on the market) and mortgages (also by private
+              companies). Every year plenty of people take advantage of
+              refinancing and consolidation. Since the market interest rate is
+              constantly changing many borrowers can refinance for better
+              interest rates all in the hopes of spending less.
+            </p>
+            <a
               class="StudentLoan"
-              title="Refinance high interest loans (over 7%)"
+              href="https://www.thefrugalgene.com/high-interest-debt/"
             >
-              <p class="StudentLoan">
-                Debt consolidation is sometimes referred to as refinancing; this
-                alludes to the fact that you are basically restructuring your
-                previous debt. You are signing up for a new interest rate new
-                payments and new repayment terms which means you’re signing up
-                for a new financing deal. Such a product is typically offered
-                for credit card debt (as mentioned above) student loans (offered
-                by private lenders on the market) and mortgages (also by private
-                companies). Every year plenty of people take advantage of
-                refinancing and consolidation. Since the market interest rate is
-                constantly changing many borrowers can refinance for better
-                interest rates all in the hopes of spending less.
-              </p>
-              <a
-                class="StudentLoan"
-                href="https://www.thefrugalgene.com/high-interest-debt/"
-              >
-                https://www.thefrugalgene.com/high-interest-debt/
-              </a>
-            </Card>
+              https://www.thefrugalgene.com/high-interest-debt/
+            </a>
+          </Card>
 
-            <Card class="StudentLoan" title="Read: StudentLoan 101">
-              <p class="StudentLoan">
-                "You’ve done everything you needed to do to get into college:
-                got good grades talked to your guidance counselor and filled out
-                applications. But then comes figuring out how to pay for
-                it.Although you’ve likely heard of and applied for scholarships
-                you might be wondering where student loans come into play. Given
-                the average cost of a four-year private college is $33480 per
-                year loans are likely going to be part of financing your
-                education. But what is a student loan?Studen Loan Hero has put
-                together the basics you should know about student loans and how
-                they work."
-              </p>
-              <a
-                class="StudentLoan"
-                href="https://studentloanhero.com/featured/what-is-a-student-loan-101-work-apply/"
-              >
-                https://studentloanhero.com/featured/what-is-a-student-loan-101-work-apply/
-              </a>
-            </Card>
+          <Card class="StudentLoan" title="Read: StudentLoan 101">
+            <p class="StudentLoan">
+              "You’ve done everything you needed to do to get into college: got
+              good grades talked to your guidance counselor and filled out
+              applications. But then comes figuring out how to pay for
+              it.Although you’ve likely heard of and applied for scholarships
+              you might be wondering where student loans come into play. Given
+              the average cost of a four-year private college is $33480 per year
+              loans are likely going to be part of financing your education. But
+              what is a student loan?Studen Loan Hero has put together the
+              basics you should know about student loans and how they work."
+            </p>
+            <a
+              class="StudentLoan"
+              href="https://studentloanhero.com/featured/what-is-a-student-loan-101-work-apply/"
+            >
+              https://studentloanhero.com/featured/what-is-a-student-loan-101-work-apply/
+            </a>
+          </Card>
 
-            <Card class="StudentLoan" title="Read: Income based payments">
-              <p class="StudentLoan">
-                "Looking for a way to get a better handle on your federal
-                student loan payments? Then you might want to consider enrolling
-                in the Income-Based Repayment (IBR) Plan.IBR is a type of
-                income-driven repayment (IDR) plan and can lower your monthly
-                student loan payments. If your payments are unaffordable due to
-                a high student loan balance compared to your current income an
-                IBR plan can provide much-needed relief.But before signing on
-                the dotted line you’ll want to be sure you understand IDR plans
-                and how they can affect your finances and student debt. "
-              </p>
-              <a
-                class="StudentLoan"
-                href="https://studentloanhero.com/featured/income-based-repayment-plan/"
-              >
-                https://studentloanhero.com/featured/income-based-repayment-plan/
-              </a>
-            </Card>
+          <Card class="StudentLoan" title="Read: Income based payments">
+            <p class="StudentLoan">
+              "Looking for a way to get a better handle on your federal student
+              loan payments? Then you might want to consider enrolling in the
+              Income-Based Repayment (IBR) Plan.IBR is a type of income-driven
+              repayment (IDR) plan and can lower your monthly student loan
+              payments. If your payments are unaffordable due to a high student
+              loan balance compared to your current income an IBR plan can
+              provide much-needed relief.But before signing on the dotted line
+              you’ll want to be sure you understand IDR plans and how they can
+              affect your finances and student debt. "
+            </p>
+            <a
+              class="StudentLoan"
+              href="https://studentloanhero.com/featured/income-based-repayment-plan/"
+            >
+              https://studentloanhero.com/featured/income-based-repayment-plan/
+            </a>
+          </Card>
 
-            <Card class="StudentLoan" title="Pay off student loans">
-              <p class="StudentLoan">
-                "Here are 4 easy ways to pay off your student loans:1. Refinance
-                your student loans2. Consolidate your student loans3. Increase
-                your monthly student loan payment4. Make a lump sum payment"
-              </p>
-              <a
-                class="StudentLoan"
-                href="https://www.forbes.com/sites/zackfriedman/2018/10/30/best-ways-to-pay-off-student-loans/#130f2004ab42"
-              >
-                https://www.forbes.com/sites/zackfriedman/2018/10/30/best-ways-to-pay-off-student-loans/#130f2004ab42
-              </a>
-            </Card>
+          <Card class="StudentLoan" title="Pay off student loans">
+            <p class="StudentLoan">
+              "Here are 4 easy ways to pay off your student loans:1. Refinance
+              your student loans2. Consolidate your student loans3. Increase
+              your monthly student loan payment4. Make a lump sum payment"
+            </p>
+            <a
+              class="StudentLoan"
+              href="https://www.forbes.com/sites/zackfriedman/2018/10/30/best-ways-to-pay-off-student-loans/#130f2004ab42"
+            >
+              https://www.forbes.com/sites/zackfriedman/2018/10/30/best-ways-to-pay-off-student-loans/#130f2004ab42
+            </a>
+          </Card>
 
-            <Card class="AutoLoan" title="Pay off auto loan">
-              <p class="AutoLoan">
-                "About seven out of 10 people borrow money to buy their cars and
-                a car loan is one of the largest financial obligations you can
-                have.If you’re one of them you may have a loan that will take
-                you 60 or 72 months to pay off. That’s five to six years! That’s
-                too much interest to have to pay. So we want to help you get out
-                from under that loan faster and save money on interest by giving
-                you 6 ways to pay off your car loan early."
-              </p>
-              <a
-                class="AutoLoan"
-                href="https://www.payoff.com/life/money/6-ways-to-pay-off-your-car-loan-early/"
-              >
-                https://www.payoff.com/life/money/6-ways-to-pay-off-your-car-loan-early/
-              </a>
-            </Card>
-
-            <Card class="AutoLoan" title="Read: Car finance 101">
-              <p class="AutoLoan">
-                "Getting an auto loan isn’t as tricky as securing a mortgage
-                since the lending criteria are a bit more flexible. But you
-                still want to begin with a good idea of what you can afford —
-                especially before falling for a budget-busting vehicle and
-                committing to a car loan that stretches you too thin.The Simple
-                Dollar put together a guide that includes a basic primer on what
-                you can expect from the car-loan process including how to
-                qualify for a loan where to obtain one and whether refinancing
-                is a good idea."
-              </p>
-              <a
-                class="AutoLoan"
-                href="https://www.thesimpledollar.com/loans/auto/auto-loans-guide/"
-              >
-                https://www.thesimpledollar.com/loans/auto/auto-loans-guide/
-              </a>
-            </Card>
-
-            <Card class="AutoLoan" title="Read: Should I sell my car and if so">
-              <p class="AutoLoan"> how?"</p>
-            </Card>
-
-            <Card
+          <Card class="AutoLoan" title="Pay off auto loan">
+            <p class="AutoLoan">
+              "About seven out of 10 people borrow money to buy their cars and a
+              car loan is one of the largest financial obligations you can
+              have.If you’re one of them you may have a loan that will take you
+              60 or 72 months to pay off. That’s five to six years! That’s too
+              much interest to have to pay. So we want to help you get out from
+              under that loan faster and save money on interest by giving you 6
+              ways to pay off your car loan early."
+            </p>
+            <a
               class="AutoLoan"
-              title="Find out if you can live without a car"
+              href="https://www.payoff.com/life/money/6-ways-to-pay-off-your-car-loan-early/"
             >
-              <p class="AutoLoan">
-                "If you’ve ever been stuck in a traffic jam sitting motionless
-                behind a diesel-belching truck as cyclists glide past happily in
-                the bike lane it may have crossed your mind that you’d be
-                happier living without a car. But chances are you quickly
-                brushed aside that notion imagining just how impractical that
-                would be. After all the whole modern world is practically built
-                around automobile travel – and with so many places designed to
-                be accessed by car is living without one even possible?The
-                answer to that question is far from simple as it largely depends
-                on your specific situation: where you live where you work and
-                what you do for fun. But the question is worth asking –
-                especially if you’re someone who’s happier almost anywhere else
-                than behind the wheel. Going without a car just might be the key
-                to a healthier more frugal and less stressful life."
-              </p>
-              <a
-                class="AutoLoan"
-                href="https://www.moneycrashers.com/living-without-car/"
-              >
-                https://www.moneycrashers.com/living-without-car/
-              </a>
-            </Card>
+              https://www.payoff.com/life/money/6-ways-to-pay-off-your-car-loan-early/
+            </a>
+          </Card>
 
-            <Card class="Other" title="Pay off personal loans">
-              <p class="Other">
-                "You can apply for personal loans at banks credit unions or
-                through online lenders. And you often don’t have to put up any
-                collateral to do so.Unsecured personal loans are different from
-                other types of loans such as mortgages and auto loans. Those
-                loans are backed by collateral. When you take out a mortgage
-                your home acts as the collateral providing a safety net for your
-                lender. If you stop making payments your lender can take your
-                home through a foreclosure process.With an unsecured personal
-                loan there is nothing for a lender to take back should you stop
-                making your payments. Because of this this type of loan is
-                riskier for lenders."
-              </p>
-              <a
-                class="Other"
-                href="https://www.magnifymoney.com/blog/personal-loans/4-traps-to-avoid-when-getting-a-personal-loan/"
-              >
-                https://www.magnifymoney.com/blog/personal-loans/4-traps-to-avoid-when-getting-a-personal-loan/
-              </a>
-            </Card>
+          <Card class="AutoLoan" title="Read: Car finance 101">
+            <p class="AutoLoan">
+              "Getting an auto loan isn’t as tricky as securing a mortgage since
+              the lending criteria are a bit more flexible. But you still want
+              to begin with a good idea of what you can afford — especially
+              before falling for a budget-busting vehicle and committing to a
+              car loan that stretches you too thin.The Simple Dollar put
+              together a guide that includes a basic primer on what you can
+              expect from the car-loan process including how to qualify for a
+              loan where to obtain one and whether refinancing is a good idea."
+            </p>
+            <a
+              class="AutoLoan"
+              href="https://www.thesimpledollar.com/loans/auto/auto-loans-guide/"
+            >
+              https://www.thesimpledollar.com/loans/auto/auto-loans-guide/
+            </a>
+          </Card>
 
-            <Card class="Other" title="Read: Debt traps to avoid">
-              <p class="Other">
-                "The best way to avoid debt is to be proactive about managing
-                your money.Avoiding debt requires you to establish a sound
-                financial plan and steer clear of the foolish whims that bring
-                short-term satisfaction but long-term hardship on the bank
-                account.It’s easy to run up enormous amounts of credit card debt
-                by purchasing things you really can’t afford. Americans owed
-                $979 billion on their credit cards at the end of 2016 or about
-                $8377 per household.It’s also commonplace to let student loans
-                ($1.34 trillion owed) car loans ($1.2 trillion) or mortgage
-                payments ($8.5 trillion) threaten your financial stability.
-                After years of unpaid bills and inadequate resources bankruptcy
-                might be the only option.Don’t go there."
-              </p>
-              <a
-                class="Other"
-                href="https://www.debt.org/advice/avoiding-debt/"
-              >
-                https://www.debt.org/advice/avoiding-debt/
-              </a>
-            </Card>
+          <Card class="AutoLoan" title="Read: Should I sell my car and if so">
+            <p class="AutoLoan"> how?"</p>
+          </Card>
 
-            <Card class="Other" title="Consolidate you debt">
-              <p class="Other">
-                "Debt consolidation rolls high-interest debts such as credit
-                card bills into a single lower-interest payment. It can reduce
-                your total debt and reorganize it so you pay it off faster.If
-                you’re dealing with a manageable amount of debt and just want to
-                reorganize multiple bills with different interest rates payments
-                and due dates debt consolidation is a sound approach you can
-                tackle on your own."
-              </p>
-              <a
-                class="Other"
-                href="https://www.nerdwallet.com/blog/finance/consolidate-debt/"
-              >
-                https://www.nerdwallet.com/blog/finance/consolidate-debt/
-              </a>
-            </Card>
+          <Card class="AutoLoan" title="Find out if you can live without a car">
+            <p class="AutoLoan">
+              "If you’ve ever been stuck in a traffic jam sitting motionless
+              behind a diesel-belching truck as cyclists glide past happily in
+              the bike lane it may have crossed your mind that you’d be happier
+              living without a car. But chances are you quickly brushed aside
+              that notion imagining just how impractical that would be. After
+              all the whole modern world is practically built around automobile
+              travel – and with so many places designed to be accessed by car is
+              living without one even possible?The answer to that question is
+              far from simple as it largely depends on your specific situation:
+              where you live where you work and what you do for fun. But the
+              question is worth asking – especially if you’re someone who’s
+              happier almost anywhere else than behind the wheel. Going without
+              a car just might be the key to a healthier more frugal and less
+              stressful life."
+            </p>
+            <a
+              class="AutoLoan"
+              href="https://www.moneycrashers.com/living-without-car/"
+            >
+              https://www.moneycrashers.com/living-without-car/
+            </a>
+          </Card>
 
-            <Card class="None" title="Obtain a GED">
-              <p class="None">
-                Successful completion of the General Educational Development
-                (GED) exam leads to a high school equivalency credential for
-                adult learners without a high school diploma. This GED
-                credential can be used to pursue a college education or career
-                advancement.
-              </p>
-              <a
-                class="None"
-                href="https://study.com/articles/How_to_get_a_GED_a_Step-by-Step_Process_to_Earn_a_GED.html"
-              >
-                https://study.com/articles/How_to_get_a_GED_a_Step-by-Step_Process_to_Earn_a_GED.html
-              </a>
-            </Card>
+          <Card class="Other" title="Pay off personal loans">
+            <p class="Other">
+              "You can apply for personal loans at banks credit unions or
+              through online lenders. And you often don’t have to put up any
+              collateral to do so.Unsecured personal loans are different from
+              other types of loans such as mortgages and auto loans. Those loans
+              are backed by collateral. When you take out a mortgage your home
+              acts as the collateral providing a safety net for your lender. If
+              you stop making payments your lender can take your home through a
+              foreclosure process.With an unsecured personal loan there is
+              nothing for a lender to take back should you stop making your
+              payments. Because of this this type of loan is riskier for
+              lenders."
+            </p>
+            <a
+              class="Other"
+              href="https://www.magnifymoney.com/blog/personal-loans/4-traps-to-avoid-when-getting-a-personal-loan/"
+            >
+              https://www.magnifymoney.com/blog/personal-loans/4-traps-to-avoid-when-getting-a-personal-loan/
+            </a>
+          </Card>
 
-            <Card
+          <Card class="Other" title="Read: Debt traps to avoid">
+            <p class="Other">
+              "The best way to avoid debt is to be proactive about managing your
+              money.Avoiding debt requires you to establish a sound financial
+              plan and steer clear of the foolish whims that bring short-term
+              satisfaction but long-term hardship on the bank account.It’s easy
+              to run up enormous amounts of credit card debt by purchasing
+              things you really can’t afford. Americans owed $979 billion on
+              their credit cards at the end of 2016 or about $8377 per
+              household.It’s also commonplace to let student loans ($1.34
+              trillion owed) car loans ($1.2 trillion) or mortgage payments
+              ($8.5 trillion) threaten your financial stability. After years of
+              unpaid bills and inadequate resources bankruptcy might be the only
+              option.Don’t go there."
+            </p>
+            <a class="Other" href="https://www.debt.org/advice/avoiding-debt/">
+              https://www.debt.org/advice/avoiding-debt/
+            </a>
+          </Card>
+
+          <Card class="Other" title="Consolidate you debt">
+            <p class="Other">
+              "Debt consolidation rolls high-interest debts such as credit card
+              bills into a single lower-interest payment. It can reduce your
+              total debt and reorganize it so you pay it off faster.If you’re
+              dealing with a manageable amount of debt and just want to
+              reorganize multiple bills with different interest rates payments
+              and due dates debt consolidation is a sound approach you can
+              tackle on your own."
+            </p>
+            <a
+              class="Other"
+              href="https://www.nerdwallet.com/blog/finance/consolidate-debt/"
+            >
+              https://www.nerdwallet.com/blog/finance/consolidate-debt/
+            </a>
+          </Card>
+
+          <Card class="None" title="Obtain a GED">
+            <p class="None">
+              Successful completion of the General Educational Development (GED)
+              exam leads to a high school equivalency credential for adult
+              learners without a high school diploma. This GED credential can be
+              used to pursue a college education or career advancement.
+            </p>
+            <a
               class="None"
-              title="Read: Vocational Training and Apprenticeships"
+              href="https://study.com/articles/How_to_get_a_GED_a_Step-by-Step_Process_to_Earn_a_GED.html"
             >
-              <p class="None">
-                "Apprenticeships provide affordable pathways to high-paying jobs
-                and careers without the typical student debt associated with
-                college.Career seekers can find apprenticeships in industries
-                such as information technology finance and business healthcare
-                hospitality transportation and manufacturing.More than 90
-                percent of apprentices remain employed after completing their
-                program and their average starting wage is more than $60000.
-                Over their careers apprentices earn $300000 more than workers
-                who did not complete an apprenticeship.To find apprenticeship
-                opportunities that match your interests and skills visit the new
-                Apprenticeship Finder on Apprenticeship.gov — a one-stop source
-                to connect career seekers employers and education partners with
-                apprenticeship resources."
-              </p>
-              <a class="None" href="https://www.apprenticeship.gov/">
-                https://www.apprenticeship.gov/
-              </a>
-            </Card>
+              https://study.com/articles/How_to_get_a_GED_a_Step-by-Step_Process_to_Earn_a_GED.html
+            </a>
+          </Card>
 
-            <Card
+          <Card
+            class="None"
+            title="Read: Vocational Training and Apprenticeships"
+          >
+            <p class="None">
+              "Apprenticeships provide affordable pathways to high-paying jobs
+              and careers without the typical student debt associated with
+              college.Career seekers can find apprenticeships in industries such
+              as information technology finance and business healthcare
+              hospitality transportation and manufacturing.More than 90 percent
+              of apprentices remain employed after completing their program and
+              their average starting wage is more than $60000. Over their
+              careers apprentices earn $300000 more than workers who did not
+              complete an apprenticeship.To find apprenticeship opportunities
+              that match your interests and skills visit the new Apprenticeship
+              Finder on Apprenticeship.gov — a one-stop source to connect career
+              seekers employers and education partners with apprenticeship
+              resources."
+            </p>
+            <a class="None" href="https://www.apprenticeship.gov/">
+              https://www.apprenticeship.gov/
+            </a>
+          </Card>
+
+          <Card
+            class="HSNoCollege"
+            title="Read: Vocational Training and Apprenticeships"
+          >
+            <p class="HSNoCollege">
+              "Apprenticeships provide affordable pathways to high-paying jobs
+              and careers without the typical student debt associated with
+              college.Career seekers can find apprenticeships in industries such
+              as information technology finance and business healthcare
+              hospitality transportation and manufacturing.More than 90 percent
+              of apprentices remain employed after completing their program and
+              their average starting wage is more than $60000. Over their
+              careers apprentices earn $300000 more than workers who did not
+              complete an apprenticeship.To find apprenticeship opportunities
+              that match your interests and skills visit the new Apprenticeship
+              Finder on Apprenticeship.gov — a one-stop source to connect career
+              seekers employers and education partners with apprenticeship
+              resources."
+            </p>
+            <a class="HSNoCollege" href="https://www.apprenticeship.gov">
+              https://www.apprenticeship.gov
+            </a>
+          </Card>
+
+          <Card class="HSNoCollege" title="Get a job">
+            <p class="HSNoCollege">
+              College has never been more expensive and while achieving a degree
+              typically does lead to increased earnings it may not be the right
+              choice for everyone. In fact there are still plenty of
+              high-earning opportunities for those with a high school diploma.
+              And because many career paths providing on-the-job training these
+              days it's often possible to move up into higher-paying positions
+              without an additional degree.
+            </p>
+            <a
               class="HSNoCollege"
-              title="Read: Vocational Training and Apprenticeships"
+              href="https://www.careerbuilder.com/advice/wellpaying-jobs-that-you-can-get-right-out-of-high-school"
             >
-              <p class="HSNoCollege">
-                "Apprenticeships provide affordable pathways to high-paying jobs
-                and careers without the typical student debt associated with
-                college.Career seekers can find apprenticeships in industries
-                such as information technology finance and business healthcare
-                hospitality transportation and manufacturing.More than 90
-                percent of apprentices remain employed after completing their
-                program and their average starting wage is more than $60000.
-                Over their careers apprentices earn $300000 more than workers
-                who did not complete an apprenticeship.To find apprenticeship
-                opportunities that match your interests and skills visit the new
-                Apprenticeship Finder on Apprenticeship.gov — a one-stop source
-                to connect career seekers employers and education partners with
-                apprenticeship resources."
-              </p>
-              <a class="HSNoCollege" href="https://www.apprenticeship.gov">
-                https://www.apprenticeship.gov
-              </a>
-            </Card>
+              https://www.careerbuilder.com/advice/wellpaying-jobs-that-you-can-get-right-out-of-high-school
+            </a>
+          </Card>
 
-            <Card class="HSNoCollege" title="Get a job">
-              <p class="HSNoCollege">
-                College has never been more expensive and while achieving a
-                degree typically does lead to increased earnings it may not be
-                the right choice for everyone. In fact there are still plenty of
-                high-earning opportunities for those with a high school diploma.
-                And because many career paths providing on-the-job training
-                these days it's often possible to move up into higher-paying
-                positions without an additional degree.
-              </p>
-              <a
-                class="HSNoCollege"
-                href="https://www.careerbuilder.com/advice/wellpaying-jobs-that-you-can-get-right-out-of-high-school"
-              >
-                https://www.careerbuilder.com/advice/wellpaying-jobs-that-you-can-get-right-out-of-high-school
-              </a>
-            </Card>
-
-            <Card
+          <Card class="HSNoCollege" title="Read: Top college alternative paths">
+            <p class="HSNoCollege">
+              "college is not for everyone — nor is it truly needed for everyone
+              — and forcing teens to attend college only to have them flunk out
+              is doing a disservice to them.Only a few generations ago
+              high-school graduates rarely went on to college yet somehow
+              through the years college has almost become a rite of passage for
+              teens to pass into adulthood and a good career. But teens do not
+              need to attend college to become adults and they certainly do not
+              need to attend to land a good career."
+            </p>
+            <a
               class="HSNoCollege"
-              title="Read: Top college alternative paths"
+              href="https://www.livecareer.com/career/advice/jobs/college-alternatives"
             >
-              <p class="HSNoCollege">
-                "college is not for everyone — nor is it truly needed for
-                everyone — and forcing teens to attend college only to have them
-                flunk out is doing a disservice to them.Only a few generations
-                ago high-school graduates rarely went on to college yet somehow
-                through the years college has almost become a rite of passage
-                for teens to pass into adulthood and a good career. But teens do
-                not need to attend college to become adults and they certainly
-                do not need to attend to land a good career."
-              </p>
-              <a
-                class="HSNoCollege"
-                href="https://www.livecareer.com/career/advice/jobs/college-alternatives"
-              >
-                https://www.livecareer.com/career/advice/jobs/college-alternatives
-              </a>
-            </Card>
+              https://www.livecareer.com/career/advice/jobs/college-alternatives
+            </a>
+          </Card>
 
-            <Card
+          <Card
+            class="HSNoCollege"
+            title="Top entry level jobs with high school deploma"
+          >
+            <p class="HSNoCollege">
+              Although people with bachelor's degrees usually earn more money
+              than those with only high school or equivalency diplomas going to
+              college isn't an option for everyone. It doesn't mean you won't be
+              able to have a well-paying career—not if you choose your
+              occupation wisely. You can get high paying jobs without a degree.
+              You may need experience for advanced positions and some employers
+              may require some college credits.
+            </p>
+            <a
               class="HSNoCollege"
-              title="Top entry level jobs with high school deploma"
+              href="https://www.thebalancecareers.com/highest-paying-occupations-without-a-degree-525687"
             >
-              <p class="HSNoCollege">
-                Although people with bachelor's degrees usually earn more money
-                than those with only high school or equivalency diplomas going
-                to college isn't an option for everyone. It doesn't mean you
-                won't be able to have a well-paying career—not if you choose
-                your occupation wisely. You can get high paying jobs without a
-                degree. You may need experience for advanced positions and some
-                employers may require some college credits.
-              </p>
-              <a
-                class="HSNoCollege"
-                href="https://www.thebalancecareers.com/highest-paying-occupations-without-a-degree-525687"
-              >
-                https://www.thebalancecareers.com/highest-paying-occupations-without-a-degree-525687
-              </a>
-            </Card>
+              https://www.thebalancecareers.com/highest-paying-occupations-without-a-degree-525687
+            </a>
+          </Card>
 
-            <Card class="HSCollege" title="Read: StudentLoans 101">
-              <p class="HSCollege">
-                "One of the biggest problems with student loan debt in America
-                is the lack of understanding of how the process works from start
-                to finish. When many people graduate college they are in for a
-                big surprise when those student loan payments start coming in.So
-                it’s crucial that you actually understand your loans — for two
-                reasons: so you don’t suddenly get slapped in the face by them
-                and so you can make the best choices for you and your situation
-                including the best ways to get the debt paid off."
-              </p>
-              <a
-                class="HSCollege"
-                href="https://clark.com/commoncents/student-loans-101-everything-much-borrow-paying-off/"
-              >
-                https://clark.com/commoncents/student-loans-101-everything-much-borrow-paying-off/
-              </a>
-            </Card>
-
-            <Card
+          <Card class="HSCollege" title="Read: StudentLoans 101">
+            <p class="HSCollege">
+              "One of the biggest problems with student loan debt in America is
+              the lack of understanding of how the process works from start to
+              finish. When many people graduate college they are in for a big
+              surprise when those student loan payments start coming in.So it’s
+              crucial that you actually understand your loans — for two reasons:
+              so you don’t suddenly get slapped in the face by them and so you
+              can make the best choices for you and your situation including the
+              best ways to get the debt paid off."
+            </p>
+            <a
               class="HSCollege"
-              title="Make a list of possible internships and part time jobs"
+              href="https://clark.com/commoncents/student-loans-101-everything-much-borrow-paying-off/"
             >
-              <p class="HSCollege">
-                "Internships have slowly graduated from an optional over-the-top
-                resume addition to an essential part of finding a job when you
-                graduate. More and more businesses are looking for internship
-                experience on the resumes of their entry-level job
-                candidates.But how do you find an internship? Wayup has put
-                together a helpful guide that overviews the steps you can take
-                to finding an internship."
-              </p>
-              <a
-                class="HSCollege"
-                href="https://www.wayup.com/guide/how-do-i-get-an-internship/"
-              >
-                https://www.wayup.com/guide/how-do-i-get-an-internship/
-              </a>
-            </Card>
+              https://clark.com/commoncents/student-loans-101-everything-much-borrow-paying-off/
+            </a>
+          </Card>
 
-            <Card class="HSCollege" title="Create a career plan">
-              <p class="HSCollege">
-                If possible every college student should start planning for the
-                future early. This means being involved on campus and staying in
-                the know of what's happening networking with professors and
-                going after professional experiences—this is all in addition to
-                studying and acing your classes of course. Doing this can be the
-                difference between many job offers by the time it's graduation
-                season or a long period of unemployment or underemployment. As a
-                college student you want to stay on top of what needs to be done
-                to create a positive outcome.
-              </p>
-              <a
-                class="HSCollege"
-                href="https://www.forbes.com/sites/shelcyvjoseph/2018/08/11/what-every-college-student-should-be-doing-for-career-success/#5790f7da62c4"
-              >
-                https://www.forbes.com/sites/shelcyvjoseph/2018/08/11/what-every-college-student-should-be-doing-for-career-success/#5790f7da62c4
-              </a>
-            </Card>
+          <Card
+            class="HSCollege"
+            title="Make a list of possible internships and part time jobs"
+          >
+            <p class="HSCollege">
+              "Internships have slowly graduated from an optional over-the-top
+              resume addition to an essential part of finding a job when you
+              graduate. More and more businesses are looking for internship
+              experience on the resumes of their entry-level job candidates.But
+              how do you find an internship? Wayup has put together a helpful
+              guide that overviews the steps you can take to finding an
+              internship."
+            </p>
+            <a
+              class="HSCollege"
+              href="https://www.wayup.com/guide/how-do-i-get-an-internship/"
+            >
+              https://www.wayup.com/guide/how-do-i-get-an-internship/
+            </a>
+          </Card>
 
-            <Card class="HSCollege" title="Top earning college degrees">
-              <p class="HSCollege">
-                Through an analysis of hundreds of thousands of resumes and
-                corresponding salary reports Glassdoor has determined which
-                majors pay the most during the first five years out of college.
-                While STEM majors take most of the top spots other majors can
-                also pay you generously. Plus for each major they’ve identified
-                three of the most popular jobs that new grads really take upon
-                entering the real world.
-              </p>
-              <a
-                class="HSCollege"
-                href="https://www.glassdoor.com/blog/50-highest-paying-college-majors/"
-              >
-                https://www.glassdoor.com/blog/50-highest-paying-college-majors/
-              </a>
-            </Card>
+          <Card class="HSCollege" title="Create a career plan">
+            <p class="HSCollege">
+              If possible every college student should start planning for the
+              future early. This means being involved on campus and staying in
+              the know of what's happening networking with professors and going
+              after professional experiences—this is all in addition to studying
+              and acing your classes of course. Doing this can be the difference
+              between many job offers by the time it's graduation season or a
+              long period of unemployment or underemployment. As a college
+              student you want to stay on top of what needs to be done to create
+              a positive outcome.
+            </p>
+            <a
+              class="HSCollege"
+              href="https://www.forbes.com/sites/shelcyvjoseph/2018/08/11/what-every-college-student-should-be-doing-for-career-success/#5790f7da62c4"
+            >
+              https://www.forbes.com/sites/shelcyvjoseph/2018/08/11/what-every-college-student-should-be-doing-for-career-success/#5790f7da62c4
+            </a>
+          </Card>
 
-            <Card class="CollegeDegree" title="Make a plan continuous learning">
-              <p class="CollegeDegree">
-                "Professional growth is all about gaining new skills and
-                experience. That means your development is either related to
-                your current role or the role you want to do next.Personal
-                development fits alongside professional growth — so if you want
-                to progress in your career you’ll need to develop personally
-                first. That’s the only way you’ll be able to handle your fears
-                take on more responsibility and succeed with greater
-                challenges."
-              </p>
-              <a
-                class="CollegeDegree"
-                href="https://www.cv-library.co.uk/career-advice/development/5-ways-manage-professional-development/"
-              >
-                https://www.cv-library.co.uk/career-advice/development/5-ways-manage-professional-development/
-              </a>
-            </Card>
+          <Card class="HSCollege" title="Top earning college degrees">
+            <p class="HSCollege">
+              Through an analysis of hundreds of thousands of resumes and
+              corresponding salary reports Glassdoor has determined which majors
+              pay the most during the first five years out of college. While
+              STEM majors take most of the top spots other majors can also pay
+              you generously. Plus for each major they’ve identified three of
+              the most popular jobs that new grads really take upon entering the
+              real world.
+            </p>
+            <a
+              class="HSCollege"
+              href="https://www.glassdoor.com/blog/50-highest-paying-college-majors/"
+            >
+              https://www.glassdoor.com/blog/50-highest-paying-college-majors/
+            </a>
+          </Card>
 
-            <Card class="CollegeDegree" title="Set up your work benefits">
-              <p class="CollegeDegree">
-                "Getting a new job is both exciting and nerve-wracking. Maybe
-                it’s your first job or maybe you’ve upgraded to a better job.
-                Regardless you’re probably balancing the excitement of your new
-                salary with the stress of meeting new performance
-                expectations.That said the last thing you probably want to think
-                about is choosing your benefits. Yet you’re required to make
-                crucial decisions that affect you for the next year within the
-                first 30 days of employment. To make life easier on you the
-                writers at MoneyUnder30 have put together a simple benefits
-                guide to help you choose your benefits appropriately at that new
-                job."
-              </p>
-              <a
-                class="CollegeDegree"
-                href="https://www.moneyunder30.com/how-to-select-benefits-at-your-new-job"
-              >
-                https://www.moneyunder30.com/how-to-select-benefits-at-your-new-job
-              </a>
-            </Card>
-
-            <Card class="CollegeDegree" title="Find a job">
-              <p class="CollegeDegree">
-                Securing that first job after college can be a daunting prospect
-                for many college seniors and recent graduates. However you can
-                take charge of the process by following a few simple strategies
-                to get your career off to a positive start.{" "}
-              </p>
-              <a
-                class="CollegeDegree"
-                href="https://www.thebalance.com/how-to-land-your-first-job-after-college-2059853"
-              >
-                https://www.thebalance.com/how-to-land-your-first-job-after-college-2059853
-              </a>
-            </Card>
-
-            <Card
+          <Card class="CollegeDegree" title="Make a plan continuous learning">
+            <p class="CollegeDegree">
+              "Professional growth is all about gaining new skills and
+              experience. That means your development is either related to your
+              current role or the role you want to do next.Personal development
+              fits alongside professional growth — so if you want to progress in
+              your career you’ll need to develop personally first. That’s the
+              only way you’ll be able to handle your fears take on more
+              responsibility and succeed with greater challenges."
+            </p>
+            <a
               class="CollegeDegree"
-              title="Read: Things to know when entering the workforce"
+              href="https://www.cv-library.co.uk/career-advice/development/5-ways-manage-professional-development/"
             >
-              <p class="CollegeDegree">
-                You’ve landed your first “real” job and steady paychecks are an
-                actual thing. The financial freedom and comfort might feel very
-                real as you enter the workforce but now it’s time to really set
-                the stage for adulthood. Not to put too much pressure on you but
-                the foundation you build now can help set you up for success.{" "}
-              </p>
-              <a
-                class="CollegeDegree"
-                href="https://www.northwesternmutual.com/life-and-money/what-to-know-about-money-when-you-enter-the-workforce/"
-              >
-                https://www.northwesternmutual.com/life-and-money/what-to-know-about-money-when-you-enter-the-workforce/
-              </a>
-            </Card>
+              https://www.cv-library.co.uk/career-advice/development/5-ways-manage-professional-development/
+            </a>
+          </Card>
+
+          <Card class="CollegeDegree" title="Set up your work benefits">
+            <p class="CollegeDegree">
+              "Getting a new job is both exciting and nerve-wracking. Maybe it’s
+              your first job or maybe you’ve upgraded to a better job.
+              Regardless you’re probably balancing the excitement of your new
+              salary with the stress of meeting new performance
+              expectations.That said the last thing you probably want to think
+              about is choosing your benefits. Yet you’re required to make
+              crucial decisions that affect you for the next year within the
+              first 30 days of employment. To make life easier on you the
+              writers at MoneyUnder30 have put together a simple benefits guide
+              to help you choose your benefits appropriately at that new job."
+            </p>
+            <a
+              class="CollegeDegree"
+              href="https://www.moneyunder30.com/how-to-select-benefits-at-your-new-job"
+            >
+              https://www.moneyunder30.com/how-to-select-benefits-at-your-new-job
+            </a>
+          </Card>
+
+          <Card class="CollegeDegree" title="Find a job">
+            <p class="CollegeDegree">
+              Securing that first job after college can be a daunting prospect
+              for many college seniors and recent graduates. However you can
+              take charge of the process by following a few simple strategies to
+              get your career off to a positive start.{" "}
+            </p>
+            <a
+              class="CollegeDegree"
+              href="https://www.thebalance.com/how-to-land-your-first-job-after-college-2059853"
+            >
+              https://www.thebalance.com/how-to-land-your-first-job-after-college-2059853
+            </a>
+          </Card>
+
+          <Card
+            class="CollegeDegree"
+            title="Read: Things to know when entering the workforce"
+          >
+            <p class="CollegeDegree">
+              You’ve landed your first “real” job and steady paychecks are an
+              actual thing. The financial freedom and comfort might feel very
+              real as you enter the workforce but now it’s time to really set
+              the stage for adulthood. Not to put too much pressure on you but
+              the foundation you build now can help set you up for success.{" "}
+            </p>
+            <a
+              class="CollegeDegree"
+              href="https://www.northwesternmutual.com/life-and-money/what-to-know-about-money-when-you-enter-the-workforce/"
+            >
+              https://www.northwesternmutual.com/life-and-money/what-to-know-about-money-when-you-enter-the-workforce/
+            </a>
+          </Card>
         </div>
       </div>
     </div>

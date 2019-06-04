@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import Answer from './Answer';
+import Answer from "./Answer";
 
 class Question extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { text : props.text, answers: props.answers, ignoreNext: props.ignoreNext};
+    this.state = {
+      text: props.text,
+      answers: props.answers,
+      ignoreNext: props.ignoreNext
+    };
   }
 
   render() {
@@ -13,23 +17,23 @@ class Question extends React.Component {
     for (var i = 0; i < this.state.answers.length; i++) {
       var answer = this.state.answers[i];
 
-      var t = 'checkbox';
+      var t = "checkbox";
       if (this.state.ignoreNext) {
-        t = 'radio';
+        t = "radio";
       }
 
-      array.push( <Answer key={answer.toString()} text={answer} type={t}/>);
+      array.push(<Answer key={answer.toString()} text={answer} type={t} />);
     }
 
-    return <h2>
-      {this.state.text}
-      <div className="btn-group btn-group-toggle" data-toggle="buttons">
-        {array}
+    return (
+      <h2>
+        {this.state.text}
+        <div className="btn-group btn-group-toggle" data-toggle="buttons">
+          {array}
         </div>
-        </h2>
-
+      </h2>
+    );
   }
-
 }
 
 export default Question;
