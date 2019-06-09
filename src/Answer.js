@@ -10,7 +10,7 @@ class Answer extends React.Component {
     this.setState(state => {
       //todo: keep track of answers selected
       //state.answers.push(chosen);
-      state.active = true;
+      state.active = !state.active;
       return state;
     });
   }
@@ -19,7 +19,13 @@ class Answer extends React.Component {
     //var clazz = this.state.active ? 'answer active' : 'answer';
     console.log(this.state.type);
     return (
-      <label className="btn btn-secondary">
+      <label
+        className={
+          this.state.active
+            ? "btn btn-secondary active focus"
+            : "btn btn-secondary"
+        }
+      >
         <input
           key={this.state.text.toString()}
           type={this.state.type}

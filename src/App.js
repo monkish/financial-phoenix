@@ -12,7 +12,7 @@ function App() {
   // export things using gh-pages and webpack
   // turn result.html into a component
   return (
-    <div className="home">
+    <div>
       <Router>
         <div>
           <Navbar />
